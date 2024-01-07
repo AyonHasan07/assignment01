@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width:1600px;
+}
+
+body{
+    font-family: 'Merriweather', serif;
+}
+/* heder style */
+header{
+    width: 83%;
+    max-width: 1320px;
+    margin:50px auto;
+    padding-top: 50px;
+}
+
+.header{
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../images/BannerImage.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+    
+    /* background-blend-mode: darken; */
+    /* background-color: #621616; */
+}
+
+.header .header-text{
+    /* color: #FFF; */
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* filter: brightness(150%); */
+}
+
+.header-text .header-text1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 16px;
+    padding-top: 177px;
+
+}
+
+.header-text .header-text2{
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    /* line-height: 95px;  */
+    max-width: 632px;
+    margin: auto;
+    padding-bottom: 177px;
+}
