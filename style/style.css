@@ -54,3 +54,43 @@ header{
     margin: auto;
     padding-bottom: 177px;
 }
+
+/* 2nd section start */
+
+.offer{
+    width: 51%;
+    max-width: 803px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.offer-box .offer-txt{
+    font-family: 'Inter', sans-serif;
+}
+
+.offer-box .offer-txt .offer-title{
+    color: #F00;
+    text-align: center;
+    /* font-family: 'Inter', sans-serif; */
+    font-size: 88px;
+    font-weight: 700;
+    padding-bottom: 48px;
+    padding-top: 80px;
+}
+
+.offer-box .offer-txt .offer-title2{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.offer-box .offer-txt .offer-title3{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
