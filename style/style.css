@@ -455,3 +455,58 @@ header, .party, .event, .upnext, .discunt, .product, .contact{
     font-weight: 600;
     text-transform: capitalize;
 }
+
+  /* last section/footer */
+
+footer{
+    color: #FFF;
+    background-color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+footer .foot-main{
+    padding: 120px 140px;
+}
+
+footer .foot-main .foot-flex, .foot-flex2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    
+
+}
+
+footer .foot-main .foot-flex2{
+    padding-top: 70px;
+}
+
+footer .foot-main .foot-flex .foot-add{
+    text-align: left;
+}
+
+footer .foot-main .foot-flex .foot-contact{
+    text-align: right;
+    padding-right: 240px;
+    
+    
+}
+
+/* footer .foot-main .foot-social{
+    margin: auto;
+} */
+
+footer .foot-main > .foot-social{
+    text-align: center;
+    padding: 60px 0px;
+}
+
+footer .foot-main button{
+    border: none;
+    background: none;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
