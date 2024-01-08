@@ -8,7 +8,7 @@ body{
     font-family: 'Merriweather', serif;
 }
 /* heder style */
-header, .party, .event, .upnext{
+header, .party, .event, .upnext, .discunt{
     width: 83%;
     max-width: 1320px;
     margin:50px auto;
@@ -265,4 +265,82 @@ header, .party, .event, .upnext{
     font-size: 20px;
     font-weight: 400;
     line-height: 32px; 
+}
+
+/* 6th section start */
+
+.discount-area{
+    font-family: inter;
+} 
+
+.discount-area .discount-txt{
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.discount-area .dicount-txt1{
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.discount-area .discount-imp{
+    color: #F00;
+}
+
+.discount-area .dicount-txt2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.discount-area .dicount-txt3{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.discount-area .discount-flex{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+
+.discount-area .discount-flex .img1{
+    
+}
+
+.discount-area .discount-flex .img2{
+    position: absolute;
+    padding-left: 650px;
+    padding-top: 160px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.discount-area .discount-flex .img3{
+
+}
+
+.discount-area .discount-img .img4{
+    width: 100%;
+    
+}
+
+.discount-area .discount-img{
+    display: block;
+}
+
+.discount-area .discount-img .img4{
+    width: ;
+    height: 220px;
+    /* border: 5px solid black; */
+    background-image: url('../images/Rectangle2.png');
+    background-repeat: no-repeat;
+    
 }
